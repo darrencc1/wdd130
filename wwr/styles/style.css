@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,6 +22,10 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #15094d;
@@ -27,9 +33,14 @@ main section{
 
 body {
     background-color: #6ab7c8;
+    font: "Roboto", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#d8f1a0;
+    font-family: "Merriweather", Times, serif;
 } 
 nav a:hover{
     background-color:#d999b9;
@@ -38,16 +49,22 @@ nav a:hover{
 .msg h2 {
     background-color:#12355b ;
     color: #d999b9;
+    font-family: "Merriweather", Times, serif;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 .msg p {
     background-color: #d8f1a0;
-    color: #12355b ;
+    color: #12355b;
+    font-size: .8em;
+    padding-bottom: 15px;
     
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -60,25 +77,64 @@ nav a {
     text-align: center;
     color: #12355b; 
     text-decoration: none;
+    padding: 35px;
 }
 
 .book, .join {
     text-align: center;
     color: #15094d;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px
+    border-radius: 5px;
 }
 footer a {
     text-align: center;
     color: #15094d;
     text-decoration: none;
+    font-family: "Merriweather", Times, serif;
 }
 
 footer p {
     font: size 1.45em;
     background-color: #d8f1a0;
+    font-family: "Merriweather", Times, serif;
 }
 
 footer p a:hover {
     text-decoration: underline;
   
 }    
+
+.home-title {
+    font-family: "Merriweather", Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img { 
+     padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+      margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
