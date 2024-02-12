@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap';
 
 #content {
     max-width: 1600px;
@@ -10,7 +10,7 @@ nav a {
     text-align: center;
 }
 
-#hero-msg h1, #hero-msg h4{
+h1, h4{
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ main section img {
 
 body {
     background-color: #6ab7c8;
-    font: "Roboto", Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ nav a:hover{
     background-color:#d999b9;
 }
 
-.msg h2 {
+h2 {
     background-color:#12355b ;
     color: #d999b9;
     font-family: "Merriweather", Times, serif;
@@ -86,7 +86,7 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px
+    margin-top: 50px;
     border-radius: 5px;
 }
 footer a {
@@ -97,7 +97,7 @@ footer a {
 }
 
 footer p {
-    font: size 1.45em;
+    font-size:  1.45em;
     background-color: #d8f1a0;
     font-family: "Merriweather", Times, serif;
 }
@@ -135,6 +135,6 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid black;
+    border: 10px solid #000;
 }
 
