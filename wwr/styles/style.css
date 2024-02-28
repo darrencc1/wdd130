@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(109, 177, 26);
+    font-size: 100%;
+}
+
+header {
+    background-color: coral;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    
+}
+h4 {
+    font-size: 0.5em;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(51, 25, 221);
+    text-align: center;
+}
+
+p {
+    color: blueviolet;
+}
+
+img.logo {
+    width: 100px;
+}
+
+img#hero-img{
+    width: 100%;
+}
+
+div.social img{
+    width:80px
+}
+
+img.card-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.msg h2{
+    background-color: black;
+    color: whitesmoke;
+}
