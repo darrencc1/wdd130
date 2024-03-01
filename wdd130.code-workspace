@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "wdd130",
+			"path": "."
+		},
+		{
+			"name": "home-network-security",
+			"path": "../../wdd130/home-network-security"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd130"
+	}
+}
