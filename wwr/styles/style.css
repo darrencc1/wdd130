@@ -211,6 +211,7 @@ footer .social img {
 }
 
 .mountains {
+
      
     width: 100%;
     grid-column: 2 / span 7;
@@ -221,4 +222,55 @@ footer .social img {
 .msg {
     grid-column: 6 / span 5; 
     grid-row: 6/ span 1; 
+}
+
+.desolation-img:hover, .salmon-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+
+}
+
+.desolation-img, .salmon-img{
+    border: 10px solid #000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+.river-section {
+    display: flex;
+    align-items: center; /* This centers the items vertically */
+    justify-content: space-between; /* This puts some space between the text and the image */
+    margin-bottom: 20px; 
+}
+
+.river-section div {
+    flex: 1; 
+    padding-left: 20px; 
+}
+
+.river-section .salmon-img {
+    flex-shrink: 0; 
+    max-width: 50%; 
+    height: auto;
+}
+
+.desolation-section {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+}
+
+
+.desolation-section div {
+    flex: 1; 
+    padding-right: 20px;
+}
+
+.desolation-section .desolation-img {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
 }
