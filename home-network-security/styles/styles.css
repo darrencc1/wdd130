@@ -4,7 +4,7 @@ body{
 }
 header {
     background-color: #000000;
-    font-family: "monospace", Times, serif;
+    font-family: "Kode Mono", monospace;
     display: grid;
     grid-column: 4 / 9;
     grid-row: 1 / 2;
@@ -14,7 +14,7 @@ header a {
     text-align: center;
     color: #a120e2;
     text-decoration: none;
-    font-family: "monospace", Times, serif;
+    font-family: "Kode Mono", monospace;
 }
 nav {
     text-align: center;
@@ -30,7 +30,7 @@ nav a:hover{
 
 footer {
     background-color: #000000;
-    font-family: "monospace", Times, serif;
+    font-family: "Kode Mono", monospace;
     display: grid;
     grid-column: 4 / 9;
     grid-row: 11 / 12;
@@ -41,7 +41,7 @@ footer {
     background-color:#000000;
     text-align:center;
     color: #b01e1e;
-    font:Kode Mono;
+    font-family: "Kode Mono", monospace;
 }
 
 .intro-section {
@@ -71,7 +71,7 @@ footer {
     justify-content: space-between;
     background-color: #000000;
     color: #ffffff;
-    font: Kode Mono;
+    font-family: "Roboto", Times, serif;
     padding: 20px;
 }
 
@@ -99,7 +99,7 @@ footer {
     align-items: center;
     background-color: #000000;
     color: #ffffff;
-    font: Kode Mono;
+    font-family: "Roboto", Times, serif;
     padding: 20px;
 }
 
