@@ -1,0 +1,129 @@
+/* @import url() */
+body{
+    background-color: #000000;
+}
+header {
+    background-color: #000000;
+    font-family: "monospace", Times, serif;
+    display: grid;
+    grid-column: 4 / 9;
+    grid-row: 1 / 2;
+    place-items: center; 
+}
+header a {
+    text-align: center;
+    color: #a120e2;
+    text-decoration: none;
+    font-family: "monospace", Times, serif;
+}
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color:#a7c3d3;
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    font-family: "monospace", Times, serif;
+    display: grid;
+    grid-column: 4 / 9;
+    grid-row: 11 / 12;
+    place-items: center; 
+}
+
+.home-title {
+    background-color:#000000;
+    text-align:center;
+    color: #b01e1e;
+    font:Kode Mono;
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 20px;
+    align-items: center; 
+    font-family: "Roboto", Times, serif;
+    background-color: black;
+    color: azure;
+}
+
+.security-img {
+    max-width: 100%;
+}
+.passwords {
+    background-color:#000000;
+    text-align:center;
+    color: #b01e1e;
+    font:Kode Mono;
+
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    font: Kode Mono;
+    padding: 20px;
+}
+
+.password-table {
+    max-width: 50%;
+}
+
+.content-2 p {
+    flex: 1; 
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.challenges {
+    flex-basis: 25%; /* Adjust the width as needed */
+    padding-right: 20px; /* Add some space between challenges and content-2 */
+}
+
+.content-2 {
+    flex-basis: 75%; /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    font: Kode Mono;
+    padding: 20px;
+}
+
+.password-table {
+    max-width: 100%; /* Adjust as needed */
+}
+
+.content-2 p {
+    flex: 1;
+}
+
+.challenges ol {
+    list-style: none; /* Remove default numbering */
+    counter-reset: list-counter; /* Reset counter */
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.challenges ol li {
+    counter-increment: list-counter; /* Increment counter */
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.challenges ol li::before {
+    content: counter(list-counter) ". "; /* Display the counter */
+    font-weight: bold; /* Make the counter bold */
+}
