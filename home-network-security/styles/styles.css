@@ -177,7 +177,10 @@ footer a {
 
 p {
     
-    
-    background-image: linear-gradient(to bottom right, rgb(67, 1, 1), rgb(140, 8, 8));
-    padding: 20px;
+    /* background-color: rgb(67, 1, 1); */
+    /* background-image: linear-gradient(to bottom right, rgb(67, 1, 1), rgb(140, 8, 8)); */
+    /* padding: 20px; */
+    /* box-shadow:  0 0 20px 10px rgb(67, 1, 1); */
+    background-image: radial-gradient(circle, rgb(140, 8, 8), rgb(67, 1, 1));
+    margin:10px;
 }
