@@ -90,7 +90,7 @@ footer a {
 .security-img {
     max-width: 100%;
 
-    border: 5px solid #9234c1;
+    border: 5px solid #3d0e64;
     transition: transform .5s;
     box-shadow: 10px 10px 20px #b01e1e;
     
@@ -121,7 +121,7 @@ footer a {
 
 .password-table {
     max-width: 100%;
-    border: 5px solid #9234c1;
+    border: 5px solid #3d0e64;
     transition: transform .5s;
     box-shadow: 10px 10px 20px #b01e1e;
 }
@@ -178,6 +178,6 @@ footer a {
 p {
     
     
-    background-image: linear-gradient(to bottom right, rgb(67, 1, 1), rgb(119, 9, 9));
-    padding: 4px 4px;
+    background-image: linear-gradient(to bottom right, rgb(67, 1, 1), rgb(140, 8, 8));
+    padding: 20px;
 }
